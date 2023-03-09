@@ -1,7 +1,7 @@
-import { Router } from 'express';
+class HomeController {
+  async index(req, res) {
+    res.json('Index');
+  }
+}
 
-const router = new Router();
-
-router.get('/', (req, res) => {
-  res.send('Ola mundo');
-});
+export default new HomeController();
