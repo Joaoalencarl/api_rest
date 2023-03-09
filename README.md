@@ -1,4 +1,5 @@
 # A school's data consumption Rest API
+An api project with JavaScript using the MySLQ database that stores students from a school
 
 ## Features
 
